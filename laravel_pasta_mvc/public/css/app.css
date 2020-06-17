@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+.content img {
+  width: 300px;
+  height: 200px;
+}
+
