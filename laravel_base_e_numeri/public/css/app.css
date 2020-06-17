@@ -1,0 +1,19 @@
+body {
+  color: purple;
+}
+
+body .numeri {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+body .numeri .box {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border: 1px black solid;
+  cursor: pointer;
+}
+

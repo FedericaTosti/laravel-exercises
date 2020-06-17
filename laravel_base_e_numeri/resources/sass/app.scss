@@ -1,0 +1,21 @@
+body {
+  // width: 100vw;
+  // height: 100vh;
+  color: purple;
+
+  .numeri {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    // overflow-x: hidden;
+
+    .box {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      background: yellow;
+      border: 1px black solid;
+      cursor: pointer;
+    }
+  }
+}
